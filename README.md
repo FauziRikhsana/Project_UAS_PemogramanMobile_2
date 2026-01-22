@@ -123,8 +123,11 @@ lib/
 │   ├── register_page.dart
 │   ├── home_page.dart
 │   ├── laporan_page.dart
-│   └── akun_page.dart
-│
+│   ├── akun_page.dart
+|   ├── auth_page.dart
+|   ├── main_page.dart
+|   └── gate.dart
+│   
 ├── user/
 │   ├── user_home.dart
 │   └── tambah_laporan.dart
