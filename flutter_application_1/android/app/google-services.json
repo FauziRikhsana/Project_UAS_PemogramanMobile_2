@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "929746281541",
+    "project_id": "kota-indah-75b91",
+    "storage_bucket": "kota-indah-75b91.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929746281541:android:3e8952884ea10e1028ef2c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929746281541-fm4ptjqngqna12cofoe69nuhm4cfkgu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXq_Cte221ZHLXb01YUHxjvXoG14zjiI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929746281541-fm4ptjqngqna12cofoe69nuhm4cfkgu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929746281541:android:c94d53456447dc5028ef2c",
+        "android_client_info": {
+          "package_name": "com.kotaindah.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929746281541-fm4ptjqngqna12cofoe69nuhm4cfkgu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXq_Cte221ZHLXb01YUHxjvXoG14zjiI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929746281541-fm4ptjqngqna12cofoe69nuhm4cfkgu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
