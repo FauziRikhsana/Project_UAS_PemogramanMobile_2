@@ -1,65 +1,117 @@
-👨‍💻 Developer
-Nama: Fauzi Rikhshana 
-NPM: 23552011030
-Proyek: Tugas Besar UAS Individu Flutter 
-Semester: 5
+<h1 align="center">🏙️ Kota Indah Mobile App</h1>
 
-🏙️ Kota Indah Mobile App
-Aplikasi pelaporan masyarakat berbasis Flutter yang memungkinkan pengguna melaporkan permasalahan lingkungan seperti jalan rusak, lampu mati, dan sampah menumpuk danlainnya.
-Aplikasi ini terintegrasi dengan Firebase dan REST API, serta mendukung Android, PWA (Web), dan siap dikembangkan lebih lanjut.
+<p align="center">
+  <b>Aplikasi Pelaporan Masyarakat Berbasis Flutter</b><br>
+  Tugas Besar UAS Individu – Mobile Programming
+</p>
 
-📌 Deskripsi Proyek
+<hr>
 
-Kota Indah Mobile merupakan aplikasi mobile yang dibuat untuk memenuhi Tugas Besar UAS Individu Mata Kuliah Mobile Programming.
-Aplikasi ini bertujuan untuk:
+<h2>👨‍💻 Developer</h2>
+<ul>
+  <li><b>Nama</b> : Fauzi Rikhshana</li>
+  <li><b>NPM</b> : 23552011030</li>
+  <li><b>Semester</b> : 5</li>
+  <li><b>Proyek</b> : Tugas Besar UAS Individu Flutter</li>
+</ul>
 
-1.Memudahkan masyarakat dalam membuat laporan
-2.Memantau status laporan secara real-time
-3.emberikan edukasi singkat terkait kepedulian lingkungan
+<hr>
 
-🛠️ Teknologi yang Digunakan
+<h2>📱 Tentang Aplikasi</h2>
+<p>
+<b>Kota Indah Mobile</b> adalah aplikasi pelaporan masyarakat berbasis <b>Flutter</b> 
+yang memungkinkan pengguna melaporkan permasalahan lingkungan seperti:
+</p>
 
-Flutter (Dart)
-Firebase
-Firebase Authentication
-Cloud Firestore
-Firebase Storage (Upload Foto)
-REST API / Mock API
-Material UI
-Android SDK
+<ul>
+  <li>Jalan rusak</li>
+  <li>Lampu jalan mati</li>
+  <li>Sampah menumpuk</li>
+  <li>Dan permasalahan lingkungan lainnya</li>
+</ul>
 
-Netlify (untuk PWA/Web)
+<p>
+Aplikasi ini terintegrasi dengan <b>Firebase</b> dan <b>REST API</b>, serta mendukung 
+<b>Android</b> dan <b>PWA (Web)</b>.
+</p>
 
-📱 Fitur Utama
-🔐 Autentikasi
-Login
-Register
-Logout
+<hr>
 
-Auth Gate (redirect otomatis berdasarkan status login)
+<h2>🎯 Tujuan Proyek</h2>
+<ul>
+  <li>Memudahkan masyarakat dalam membuat laporan</li>
+  <li>Memantau status laporan secara real-time</li>
+  <li>Memberikan edukasi singkat terkait kepedulian lingkungan</li>
+</ul>
 
-🏠 User Home
-Header gambar (branding kota)
-Edukasi masyarakat
-Daftar laporan milik user
-Status laporan (Dikirim, Diproses, Selesai)
+<hr>
 
-📝 Laporan
-Tambah laporan baru
-Upload foto laporan
-Isi deskripsi & kategori
-Simpan data ke Firebase Firestore
+<h2>🛠️ Teknologi yang Digunakan</h2>
+<ul>
+  <li>Flutter (Dart)</li>
+  <li>Firebase Authentication</li>
+  <li>Cloud Firestore</li>
+  <li>Firebase Storage (Upload Foto)</li>
+  <li>REST API / Mock API</li>
+  <li>Material UI</li>
+  <li>Android SDK</li>
+  <li>Netlify (PWA / Web)</li>
+</ul>
 
-👤 Akun
-Informasi akun pengguna
-Logout
+<hr>
 
-🎨 UI/UX
-Warna dapat dikustomisasi
-Desain modern & responsif
-Siap ditambahkan animasi (bonus)
+<h2>✨ Fitur Utama</h2>
 
-🧭 Struktur Folder
+<h3>🔐 Autentikasi</h3>
+<ul>
+  <li>Login</li>
+  <li>Register</li>
+  <li>Logout</li>
+  <li>Auth Gate (redirect otomatis berdasarkan status login)</li>
+</ul>
+
+<h3>🏠 User Home</h3>
+<ul>
+  <li>Header gambar (branding kota)</li>
+  <li>Edukasi masyarakat</li>
+  <li>Daftar laporan milik user</li>
+  <li>Status laporan:
+    <ul>
+      <li>Dikirim</li>
+      <li>Diproses</li>
+      <li>Selesai</li>
+    </ul>
+  </li>
+</ul>
+
+<h3>📝 Laporan</h3>
+<ul>
+  <li>Tambah laporan baru</li>
+  <li>Upload foto laporan</li>
+  <li>Isi deskripsi dan kategori</li>
+  <li>Simpan data ke Firebase Firestore</li>
+</ul>
+
+<h3>👤 Akun</h3>
+<ul>
+  <li>Informasi akun pengguna</li>
+  <li>Logout</li>
+</ul>
+
+<hr>
+
+<h2>🎨 UI / UX</h2>
+<ul>
+  <li>Warna dapat dikustomisasi</li>
+  <li>Desain modern dan responsif</li>
+  <li>Siap dikembangkan dengan animasi (bonus)</li>
+</ul>
+
+<hr>
+
+<h2>🧭 Struktur Folder</h2>
+
+<pre>
 lib/
 │
 ├── models/
@@ -82,14 +134,29 @@ lib/
 │   └── api_service.dart
 │
 └── main.dart
+</pre>
 
-🔄 Alur Aplikasi
-User membuka aplikasi
-Auth Gate mengecek status login
-Jika belum login → halaman Login / Register
-Jika sudah login → User Home
-User dapat:
-Melihat laporan
-Menambah laporan
-Melihat status laporan
-Data tersimpan di Firebase
+<hr>
+
+<h2>🔄 Alur Aplikasi</h2>
+<ol>
+  <li>User membuka aplikasi</li>
+  <li>Auth Gate mengecek status login</li>
+  <li>Jika belum login → Halaman Login / Register</li>
+  <li>Jika sudah login → User Home</li>
+  <li>User dapat:
+    <ul>
+      <li>Melihat laporan</li>
+      <li>Menambah laporan</li>
+      <li>Melihat status laporan</li>
+    </ul>
+  </li>
+  <li>Data tersimpan di Firebase</li>
+</ol>
+
+<hr>
+
+<p align="center">
+  <b>📌 Kota Indah Mobile App</b><br>
+  Tugas Besar UAS Individu – Mobile Programming
+</p>
